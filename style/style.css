@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.img {
+    width: 75%;
+    margin: auto;
+}
+.img > img {
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.menuHome > a{
+    display: block;
+    text-decoration: none;
+    color: rgb(15, 20, 26);
+    font-size: 35px;
+    margin: 20px;
+}
+.menuHome > a:hover {
+    font-size: 40px;
+    text-shadow: rgba(27, 35, 46, 0.582) 2px 2px 5px;
+}
+.butDuJeu, .winAlert {
+    border: 2px rgb(15, 20, 26) dotted;
+    border-radius: 8px;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+.butDuJeu > p, .winAlert > p {
+    font-size: 22px;
+}
+#compris, #Continuer, #revenir {
+    width: 100%;
+    font-size: 20px;
+    color: rgb(221, 221, 221);
+    background-color: rgb(60, 133, 223);
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: content-box;
+}
+#Arreter, #plus {
+    width: 100%;
+    font-size: 20px;
+    color: rgb(221, 221, 221);
+    background-color: rgb(231, 87, 87);
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: content-box;
+}
+#Arreter:hover, #plus:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(150, 33, 33);
+    font-size: 21px;
+}
+#compris:hover, #Continuer:hover, #revenir:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 106, 187);
+    font-size: 21px;
+}
+#keyboard {
+    border: 2px rgb(15, 20, 26) dotted;
+    border-radius: 8px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.char {
+    color: rgb(221, 221, 221);
+    background-color: rgb(60, 133, 223);
+    font-size: 50px;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    width: 62px;
+    margin: 2px;
+    box-sizing: content-box;
+}
+.char:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 106, 187);
+}
+.used {
+    color: rgb(255, 255, 255);
+    background-color: rgb(177, 177, 177);
+    font-size: 50px;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    width: 62px;
+    margin: 2px;
+    box-sizing: content-box;
+}
+#unknow {
+    margin: 10px auto;
+    padding: 10px;
+}
+.vide {
+    color: rgb(60, 133, 223);
+    background-color: rgb(240, 240, 240);
+    font-size: 50px;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    width: 62px;
+    margin: 2px;
+    box-sizing: content-box;
+    box-shadow: 2px 2px 5px rgba(27, 35, 46, 0.582);
+}
+#stat {
+    display: flex;
+    flex-direction: row;
+}
+.statDetail {
+    margin: auto;
+}
+#answer {
+    color: rgb(60, 133, 223);
+}
+#error {
+    color: rgb(150, 33, 33)
+}
