@@ -9,8 +9,8 @@ let oldWord = ''
 
 // Tableau contenant les mots
 const words = [
-    ['bug', 'var', 'let', 'for', 'map', 'set', 'css', 'alt', 'ram', 'web'],
-    ['html', 'loop', 'show', 'drop', 'hide', 'push', 'date', 'data', 'char', 'mail'],
+    ['bug', 'var', 'let', 'for', 'map', 'set', 'css', 'alt', 'php', 'web'],
+    ['html', 'loop', 'show', 'drop', 'hide', 'push', 'date', 'data', 'char', 'java'],
     ['const', 'split', 'error', 'width', 'class', 'click', 'enter', 'event', 'array', 'index'],
     ['height', 'margin', 'python', 'cookie', 'script', 'append', 'object', 'loaded', 'window', 'system'],
     ['listner', 'windows', 'control', 'console', 'content', 'comment', 'default', 'prevent', 'monitor', 'element'],
